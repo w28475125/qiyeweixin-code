@@ -1,0 +1,10 @@
+.header{
+  background-color: #5176ab !important;
+}
+.header{
+  /deep/ .van-nav-bar__title,
+  /deep/ .van-icon,
+  /deep/ .van-nav-bar__text{
+    color: #fff !important;
+  }
+}
