@@ -25,7 +25,7 @@
       >
         <van-row gutter="20">
           <van-col :span="6">
-            <van-image :src="item.image" />
+            <van-image :src="item.image" height="40px" fit="contain" />
           </van-col>
           <van-col :span="18">
             <div class="title">{{ item.title }}</div>
