@@ -6,7 +6,7 @@ module.exports = {
     open: true, //打开浏览器
     proxy: {
       "/api": {
-        target: "http://test01.changxianggu.com:80",
+        target: "****://******.************.***:**",
         ws: true,
         changeOrigin: true,
         pathRewrite: {
