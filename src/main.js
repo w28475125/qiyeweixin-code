@@ -7,10 +7,10 @@ import "../src/util/filter";
 
 import "../src/assets/style/global.scss";
 
-import Vant from "vant";
-import "vant/lib/index.css";
+// import Vant from "vant";
+// import "vant/lib/index.css";
 
-Vue.use(Vant);
+// Vue.use(Vant);
 
 Vue.prototype.$axios = axios;
 Vue.config.productionTip = false;
